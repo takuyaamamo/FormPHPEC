@@ -1,0 +1,346 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Avenir Next";
+  background-image: url(image/20151026072334.jpg);
+  height: auto;
+  z-index: -10;
+  margin: 0;
+}
+
+.headerTopLogo {
+  display: inline-block;
+  width: 100%;
+}
+
+form label{
+  display: block;
+}
+form input{
+  display: block;
+  margin: 0 auto;
+}
+.headline{
+  position: relative;
+  padding: 0.2em 0.5em;
+  color: white;
+  font-weight: lighter;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.56);
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  display: inline-block;
+}
+/*ヘッダー*/
+.teleport{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: 60px;
+}
+.header-list{
+  background-color: pink;
+  text-align: center;
+  white-space: nowrap;
+  height: 60px;
+}
+.header-list a{
+  width: 16%;
+  text-decoration: none;
+  line-height: 2.5;
+  color: white;
+  font-size: 120%;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 2px;
+}
+.header-list a:hover{
+  opacity: 0.7;
+}
+.header-list a:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  left: 3px;
+}
+.header-1{
+  background-color: rgb(245, 164, 227);
+  box-shadow: 3px 7px rgb(194, 108, 183);
+}
+.header-2{
+  background-color: rgb(207, 164, 245);
+  box-shadow: 3px 7px rgb(164, 108, 194);
+}
+.header-3{
+  background-color: rgb(164, 191, 245);
+  box-shadow: 3px 7px rgb(108, 111, 194);
+}
+.header-4{
+  background-color: rgb(164, 240, 245);
+  box-shadow: 3px 7px rgb(108, 189, 194);
+}
+.header-5{
+  background-color: rgb(243, 245, 164);
+  box-shadow: 3px 7px rgb(194, 190, 108);
+}
+
+/*お店のつかみメイン*/
+.visual{
+  width: 100%;
+}
+/*動画のときの中心配置用 .mainVisual{position: relative;}*/
+.mainVisual{
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+}
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+.title{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  /*動画のときの中心配置用position: absolute;top: 50%;left: 50%;-ms-transform: translate(-50%,-50%);-webkit-transform : translate(-50%,-50%);transform : translate(-50%,-50%);*/
+  width: 100%;
+  opacity: 0.9;
+  text-align: center;
+}
+.title h1{
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+}
+.title p{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+.title span{
+  color: red;
+}
+
+/*ブレスレットの注文*/
+.menu{
+  background-color: white;
+  padding-bottom: 30px;
+  clear:both;
+}
+.order{
+  background: -moz-linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  background: linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  font-size: 10px;
+}
+.accordion-btn{
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(207, 164, 245) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(207, 164, 245) 0%, #ffc994 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+  border-radius: 10px;
+}
+.btn:active{
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(245, 164, 227, 0.2);
+  border-bottom: none;
+}
+.orderContents{
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  letter-spacing: -0.4em;
+}
+.leftSide{
+  width: 60%;
+  display: inline-block;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.raightSide{
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  letter-spacing: normal;
+}
+/*ネックレス購入*/
+.fortune{
+  background: -moz-linear-gradient(to right, rgb(164, 191, 245), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(164, 191, 245), #ffc994);
+  background: linear-gradient(to right, rgb(164, 191, 245), #ffc994);
+  font-size: 10px;
+}
+.lineup{
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+}
+.btn:active{
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(245, 164, 227, 0.2);
+  border-bottom: none;
+}
+.necklaceLineup{
+  background-color: rgb(240, 240, 240);
+}.necklace{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}.leftContents{
+  width: 40%;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  height: 220px;
+  position: relative;
+  display:block;
+  float: left;
+  border-radius: 10px 0 10px 0;
+}.leftContents img{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}.rightContents{
+  width: 40%;
+  height: 220px;
+  display: inline-block;
+  text-align: center;
+}
+
+.access{
+  background: -moz-linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  background: linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  font-size: 10px;
+}
+
+.map{
+  background-color: white;
+}.mapAdress{
+  width: 90%;
+  margin:0 auto;
+  padding-bottom: 20px;
+}.googolemap{
+  width: 70%;
+  background: -moz-linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  background: linear-gradient(to right, rgb(164, 240, 245), #ffc994);
+  height: 350px;
+  position: relative;
+  display: block;
+  float: left;
+  border-radius: 10px;
+}iframe{
+  width: 85%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.adress{
+  padding-left: 10px;
+  width: 25%;
+  height: 350px;
+  display: inline-block;
+}
+
+.contact{
+  background: -moz-linear-gradient(to right, rgb(243, 245, 164), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(243, 245, 164), #ffc994);
+  background: linear-gradient(to right, rgb(243, 245, 164), #ffc994);
+  font-size: 10px;
+}
+.contactUs{
+  background-color: rgb(240, 240, 240);
+}
+.contactUsForm{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contactUs .btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(243, 245, 164) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(243, 245, 164) 0%, #ffc994 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+}
+.contactUs .btn:active{
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(243, 245, 164, 0.2);
+  border-bottom: none;
+}
+
+input, textarea{
+  width: 80%;
+  border: 1px solid #dee7ec;
+}
+.description{
+}
+
+footer{
+  background-color: gray;
+  height: 65px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.footer-logo{
+  font-size: 36px;
+  float:left;
+  line-height: 65px;
+  vertical-align: middle;
+}
+.footer-list{
+  float: right;
+  line-height: 65px;
+  vertical-align: middle;
+}
+.footer-list a{
+  margin-left: 1em;
+}
+.footerbtn{
+  text-decoration: none;
+  color: white;
+}

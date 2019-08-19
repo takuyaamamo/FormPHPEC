@@ -1,0 +1,209 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Avenir Next";
+  background-image: url(image/20151026072334.jpg);
+  height: auto;
+  z-index: -10;
+  margin: 0;
+}
+form {
+  background-color: white;
+}
+
+.confirm {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+td {
+  padding: 1em;
+  border-bottom:2px dashed red;
+}
+
+.tableLeft {
+  white-space: nowrap;
+  text-align: left;
+  font-weight: bold;
+}
+.tableRight {
+  text-align: left;
+}
+.headline{
+  position: relative;
+  padding: 0.2em 0.5em;
+  color: white;
+  font-weight: lighter;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.56);
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1{
+  background: -moz-linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  background: -webkit-linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  background: linear-gradient(to right, rgb(207, 164, 245), #ffc994);
+  font-size: 1.5em;
+}
+/*ヘッダー*/
+.teleport{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: 60px;
+}
+.header-list{
+  background-color: pink;
+  text-align: center;
+  white-space: nowrap;
+  height: 60px;
+}
+.header-list a{
+  width: 16%;
+  text-decoration: none;
+  line-height: 2.5;
+  color: white;
+  font-size: 120%;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 2px;
+}
+.header-list a:hover{
+  opacity: 0.7;
+}
+.header-list a:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  left: 3px;
+}
+.header-1{
+  background-color: rgb(245, 164, 227);
+  box-shadow: 3px 7px rgb(194, 108, 183);
+}
+.header-2{
+  background-color: rgb(207, 164, 245);
+  box-shadow: 3px 7px rgb(164, 108, 194);
+}
+.header-3{
+  background-color: rgb(164, 191, 245);
+  box-shadow: 3px 7px rgb(108, 111, 194);
+}
+.header-4{
+  background-color: rgb(164, 240, 245);
+  box-shadow: 3px 7px rgb(108, 189, 194);
+}
+.header-5{
+  background-color: rgb(243, 245, 164);
+  box-shadow: 3px 7px rgb(194, 190, 108);
+}
+
+.btn{
+  width: 100%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(207, 164, 245) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(207, 164, 245) 0%, #ffc994 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+  border-radius: 10px;
+}
+.btn:active{
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(245, 164, 227, 0.2);
+  border-bottom: none;
+}
+
+.inp {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  padding: 1em 0;
+}
+
+.center {
+  text-align: left;
+  display: inline-block;
+}
+
+.content {
+  text-align: left;
+  margin-bottom:10px;
+  display: inline-block;
+}
+
+.tag {
+}
+
+.necklaceLineup{
+  background-color: rgb(240, 240, 240);
+}.necklace{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}.leftContents{
+  width: 40%;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  background-image: linear-gradient(45deg, rgb(164, 191, 245) 0%, #ffc994 100%);
+  height: 220px;
+  position: relative;
+  display:block;
+  float: left;
+  border-radius: 10px 0 10px 0;
+}.leftContents img{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}.rightContents{
+  width: 40%;
+  height: 220px;
+  display: inline-block;
+  text-align: center;
+}
+
+footer{
+  background-color: gray;
+  height: 65px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.footer-logo{
+  font-size: 36px;
+  float:left;
+  line-height: 65px;
+  vertical-align: middle;
+}
+.footer-list{
+  float: right;
+  line-height: 65px;
+  vertical-align: middle;
+}
+.footer-list a{
+  margin-left: 1em;
+}
+.footerbtn{
+  text-decoration: none;
+  color: white;
+}

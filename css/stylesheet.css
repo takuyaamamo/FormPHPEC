@@ -1,0 +1,645 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 95%;
+  background-image: url(../image/スピリチュアル背景.jpg);
+}
+
+.MaterialShadow {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 4px 7px 3px #9e9e9e;
+  border-radius: 5px;
+  display: block;
+  padding-bottom: 40px;
+}
+ nav ul {
+   padding: 0;
+ }
+ nav li {
+   list-style: none;
+ }
+.teleportButton {
+  width: 12em;
+  display: inline-block;
+  background-color: hsla(315, 100%, 88%, 0.71);
+  color: #ffffff;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  padding: 0.6em 0;
+  margin: 0 3px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s;
+}
+.teleportButton:hover{
+  background-color:  hsla(315, 97%, 85%, 1);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.sectionTitle {
+  font-size: 4vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.sectionTitle span {
+  /* color: #26a69b; */
+  color: hsla(315, 100%, 88%, 1);
+}
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ヘッダー↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+/* →→→→→→→→→→→→→→→→→→→→→→トップ部分のロゴ→→→→→→→→→→→→→→→→→→→→→→ */
+.headerTopLogo {
+  width: 100%;
+  }
+
+.headerTopLogo > img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* →→→→→→→→→→→→→→→→→→→→→→テレポートヘッダー→→→→→→→→→→→→→→→→→→→→→→ */
+header {
+  width: 100%;
+  margin-top: 0.3%;
+  margin-bottom: 0.3%;
+}
+header > nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.PCDisplay ul{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓トップ画像↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.topImg {
+  position: relative;
+  height: 100vh;
+}
+/* →→→→→→→→→→→→→→→→→→→→→→背景→→→→→→→→→→→→→→→→→→→→→→ */
+/* .topImg > div > img {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+  border-radius: 5px;
+} */
+.topImg {
+  background: center/cover gray url("../image/shige0713064_TP_V.jpg");
+}
+/* →→→→→→→→→→→→→→→→→→→→→→テキスト→→→→→→→→→→→→→→→→→→→→→→ */
+.topText {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.topText > h1 {
+  text-align: center;
+  /* font-size: 4em; */
+  font-size: 6vw;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+  margin:0;
+  padding:0;
+}
+.topText > p {
+  text-align: center;
+  /* font-size: 3em; */
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.9);
+  margin:0;
+  padding:0;
+}
+
+.topText span {
+  display: inline-block;
+  margin: 2em auto;
+}
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ナビ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+nav {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.NavigationIcon {
+  text-align: right;
+}
+.NavigationIcon > img {
+  width: 5%;
+  display: inline-block;
+}
+.NavigationIcon > img + img {
+  width: 8%;
+  vertical-align: bottom;
+}
+.NavigationText {
+  border-top: solid 2px black;
+  margin: 0;
+}
+.NavigationText > h1 {
+  background-color: hsla(0, 0%, 100%, 0);
+  display: inline-block;
+  margin: 0;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ブレスレット↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* →→→→→→→→→→→→→→→→→→→→→→紹介テレポート→→→→→→→→→→→→→→→→→→→→→→ */
+.Blacelet {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.Blacelet P {
+  font-size: 2vw;
+  padding: 1% 15%;
+}
+
+.Blacelet > header {
+  margin-bottom: 5%;
+}
+.BlaceletPlan > a {
+  display: inline-block;
+  background-color: #26a69b;
+  color: #FFF;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  padding: 0.6em 1.3em;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s;
+}
+.BlaceletPlan > a:hover {
+  background-color: #26a10b;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+/* →→→→→→→→→→→→→→→→→→→→→→オーダーメード→→→→→→→→→→→→→→→→→→→→→→ */
+.Ordermade {
+  text-align: center;
+}
+.Ordermade > h2 {
+  font-size: 3vw;
+  margin: 0;
+}
+.Ordermade > h3 {
+  font-size: 2.5vw;
+}
+.HowToOrder {
+  font-size: 2vw;
+  text-align: center;
+  padding-left: 0;
+}
+.HowToOrder > li {
+  display: block;
+}
+
+/* →→→→→→→→→→→→→→→→→→→→→→オーダーメードフォーム→→→→→→→→→→→→→→→→→→→→→→ */
+.OrderForm {
+  display: inline-block;
+  width: 80%;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.cp_ipselect {
+	/* overflow: hidden; */
+	width: 15%;
+	margin: 2em auto;
+	text-align: center;
+  display: inline-block;
+}
+.cp_ipselect select {
+	width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+  display: none;
+}
+.cp_ipselect.cp_sl02 {
+	position: relative;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	background: #ffffff;
+}
+.cp_ipselect.cp_sl02::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+.cp_ipselect.cp_sl02:after {
+	position: absolute;
+	top: 0;
+	right: 2.5em;
+	bottom: 0;
+	width: 1px;
+	content: '';
+	border-left: 1px solid #bbbbbb;
+}
+.cp_ipselect.cp_sl02 select {
+	padding: 8px 38px 8px 8px;
+	color: #666666;
+}
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓リンク↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.linktitle {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2em;
+}
+.linkList {
+  list-style: none;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.linkList Li {
+  margin-bottom: 5%;
+}
+.List {
+  text-decoration: none;
+  text-align: center;
+}
+
+.List img {
+  width: 25vw;
+  height: 25vw;
+}
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓アクセス↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.mapStyle {
+  position:relative;
+  overflow:hidden;
+  border-radius: 10%;
+  width: 80%;
+  margin: 100px auto;
+}
+
+iframe{
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+.Address{
+  padding-left: 15%;
+  margin: 0 auto;
+}
+
+.Address dt {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.Address dd {
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+.trainAccess, .carAccess {
+  padding-left: 15%;
+}
+
+.trainAccess h2, .carAccess h2 {
+  font-size: 2.5vw;
+}
+
+.trainAccess li, .carAccess li {
+  font-size: 2vw;
+}
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓フッター↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+footer {
+  display: block;
+}
+
+footer nav {
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+footer img {
+  width: 20%;
+}
+
+footer a {
+  float: right;
+  width:　30%;
+  text-decoration: none;
+}
+
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓会社概要＆返品ポリシー↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.companynavi {
+  padding: 5px 5% 50px;
+}
+.companynavi hr{
+  margin-left: -5%;
+  margin-right: -5%;
+  border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+.companynavi h1 {
+  font-size: 3vw;
+  color: hsl(0, 100%, 70%);
+}
+.companynavi h2 {
+  font-size: 2.5vw;
+}
+.companynavi a{
+  /* text-decoration: none; */
+  color: black;
+}
+.company dt {
+  padding-top: 15px;
+}
+.company dd{
+  line-height: 2;
+}
+.company table {
+  border-collapse: collapse;
+  width: 40%;
+}
+.company thead {
+  text-align: center;
+}
+.company th {
+  font-weight: normal;
+}
+.company tbody {
+  text-align: right;
+}
+.company table th, table td {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ハンバーガーメニュー↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+
+/* →→→→→→→→→→→→→→→→→→→→→→メニュー部分隠れている時→→→→→→→→→→→→→→→→→→→→→→ */
+#hamburgerMenu {
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s linear;
+  position: fixed;
+  top: 120px;
+  right: 2.5%;
+}
+
+/* →→→→→→→→→→→→→→→→→→→→→→メニュー部分出現→→→→→→→→→→→→→→→→→→→→→→ */
+#hamburgerMenu.active {
+  visibility: visible;
+  opacity: 1;
+  /* position: fixed;
+  top: 120px;
+  right: 2.5%; */
+}
+#hamburgerMenu.active .teleportButton {
+  margin-bottom: 10px;
+}
+
+
+/* →→→→→→→→→→→→→→→→→→→→→→トリガー隠れている時→→→→→→→→→→→→→→→→→→→→→→ */
+#menu-trigger.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* →→→→→→→→→→→→→→→→→→→→→→トリガー出現＆押す前→→→→→→→→→→→→→→→→→→→→→→ */
+#menu-trigger {
+  opacity: 1;
+  transition: opacity .4s;
+  position: fixed;
+  top: 40px;
+  right: 5%;
+  width: 50px;
+  height: 44px;
+  float: right;
+}
+#menu-trigger,#menu-trigger span {
+  transition: all .4s;
+}
+#menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color:  hsla(315, 97%, 85%, 1);
+  border-radius: 4px;
+}
+#menu-trigger span:nth-of-type(1) {
+  top: 0;
+}
+#menu-trigger span:nth-of-type(2) {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+#menu-trigger span:nth-of-type(3) {
+  bottom: 0;
+}
+
+
+/* →→→→→→→→→→→→→→→→→→→→→→トリガー押したあと→→→→→→→→→→→→→→→→→→→→→→ここから */
+#menu-trigger::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  content: '';
+  width: 84px;
+  height: 84px;
+  margin: -45px 0 0 -45px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  transition: all .75s;
+}
+#menu-trigger.active span:nth-of-type(1) {
+  -webkit-transform: translateY(20px) rotate(-45deg);
+  transform: translateY(20px) rotate(-45deg);
+}
+#menu-trigger.active span:nth-of-type(2) {
+  left: 60%;
+  opacity: 0;
+  -webkit-animation: active-menu-bar02 .8s forwards;
+  animation: active-menu-bar02 .8s forwards;
+}
+@-webkit-keyframes active-menu-bar02 {
+  100% {
+    height: 0;
+  }
+}
+@keyframes active-menu-bar02 {
+  100% {
+    height: 0;
+  }
+}
+#menu-trigger.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-15px) rotate(45deg);
+  transform: translateY(-15px) rotate(45deg);
+}
+#menu-trigger.active::after {
+  -webkit-animation: circle .4s .25s forwards;
+  animation: circle .4s .25s forwards;
+}
+@-webkit-keyframes circle {
+  0% {
+    border-color: transparent;
+    -webkit-transform: rotate(0);
+  }
+  25% {
+    border-color: transparent #bbb transparent transparent;
+  }
+  50% {
+    border-color: transparent #bbb #bbb transparent;
+  }
+  75% {
+    border-color: transparent #bbb #bbb #bbb;
+  }
+  100% {
+    border-color: #bbb;
+    -webkit-transform: rotate(-680deg);
+  }
+}
+@keyframes circle {
+  0% {
+    border-color: transparent;
+    transform: rotate(0);
+  }
+  25% {
+    border-color: transparent #bbb transparent transparent;
+  }
+  50% {
+    border-color: transparent #bbb #bbb transparent;
+  }
+  75% {
+    border-color: transparent #bbb #bbb #bbb;
+  }
+  100% {
+    border-color: #bbb;
+    transform: rotate(-680deg);
+  }
+}
+
+textarea {
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+}
+
+.radio label {
+  color: #bdbcbc;
+  border-radius: 2px;
+  padding:1em 2em;
+}
+
+.radio input {
+  display: none;
+}
+
+.radio label:hover {
+    color: #888;
+}
+
+.radio input[type="radio"]:checked + label {
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #000;
+  background-color: hsla(315, 100%, 88%, 1);
+}
+
+Button {
+  display: inline-block;
+  background-color: hsla(315, 100%, 88%, 0.71);
+  color: #FFF;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  padding: 0.6em 1.3em;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .3s;
+  margin-bottom: 2em;
+}
+Button:hover{
+  background-color: hsla(315, 100%, 88%, 1);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
